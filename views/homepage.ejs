@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Dashboard</title>
+</head>
+<body class="home">
+<header class="topbar">
+    <div class="brand">
+        <img src="/logo.jpg" alt="Ivan Vazov Austin Bulgarian School logo">
+        <span>Ivan Vazov Austin Bulgarian School</span>
+    </div>
+    <a href="/">Log out</a>
+</header>
+
+    <div class="content">
+        <div class="pagehead">
+            <h1>Dashboard</h1>
+        </div>
+        <p class="mute greet">Hello, <%= name %>!</p>
+
+        <div class="cols">
+            <!-- Left sidebar -->
+            <aside class="side">
+                <section class="panel">
+                    <div class="panel-head"><h2>To do</h2><span class="count">2</span></div>
+                    <div class="item">
+                        <div class="item-main"><b>Dictation: spelling of ь and й</b><span class="mute">Bulgarian Language</span></div>
+                        <span class="pill late">14.10.</span>
+                    </div>
+                    <div class="item">
+                        <div class="item-main"><b>Essay: Paisius of Hilendar</b><span class="mute">History</span></div>
+                        <span class="pill">21.10.</span>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <div class="panel-head"><h2>Coming up</h2></div>
+                    <div class="item">
+                        <div class="daybox"><span>Mon</span><b>09:00</b></div>
+                        <div class="item-main"><b>Bulgarian Language</b><span class="mute">Zoom · 09:00–09:40</span></div>
+                    </div>
+                </section>
+
+                <section class="panel tint">
+                    <div class="panel-head"><h2>Feedback</h2></div>
+                    <p class="mute">Nothing for now.</p>
+                </section>
+            </aside>
+            
+            <!-- Course cards -->
+            <main>
+                <div class="grid">
+
+                    <div class="ccard">
+                        <div class="hero" style="background:#1b8c0a"></div>
+                        <div class="cinfo">
+                            <div class="ctitle" style="color:#1b8c0a">Български език</div>
+                            <div class="ccode">Bulgarian Language · Mrs Petrova</div>
+                        </div>
+                    </div>
+
+                    <div class="ccard">
+                        <div class="hero" style="background:#c0001a"></div>
+                        <div class="cinfo">
+                            <div class="ctitle" style="color:#c0001a">История</div>
+                            <div class="ccode">History · Mr Dimitrov</div>
+                        </div>
+                    </div>
+
+                    <div class="ccard">
+                        <div class="hero" style="background:#3b6ea8"></div>
+                        <div class="cinfo">
+                            <div class="ctitle" style="color:#3b6ea8">География</div>
+                            <div class="ccode">Geography · Mrs Ivanova</div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

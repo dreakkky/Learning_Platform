@@ -1,0 +1,33 @@
+{
+  "name": "ivan_vazov_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreakkky/Learning_Platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dreakkky/Learning_Platform/issues"
+  },
+  "homepage": "https://github.com/dreakkky/Learning_Platform#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "nodemon": "^3.1.14"
+  }
+}

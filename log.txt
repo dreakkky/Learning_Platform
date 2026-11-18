@@ -1,0 +1,8 @@
+Nov 17:
+- using: HTML/CSS + Express.js + MySql
+- created a init -y package (run server with "npm run dev")
+- created a login page and got the routes and database working
+- made new design for homepage
+
+- finish functionality of signup page
+- design class pages

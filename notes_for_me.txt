@@ -1,6 +1,0 @@
-activate it
-    source venv/bin/activate
-Install the packages into it
-    pip install -r requirements.txt
-run the app while its still activate   
-    uvicorn main:app --reload
